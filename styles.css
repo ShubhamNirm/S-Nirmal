@@ -61,7 +61,7 @@ h1 {
 }
 
 .btn {
-    background-color: #FF8C00;
+    background-color: #14747a;
     color: white;
     padding: 12px 30px;
     border-radius: 30px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #D87A00;
+    background-color: #3fb6b6;
 }
 
 .skills {
@@ -175,7 +175,7 @@ h1 {
 
 .project-link {
     display: inline-block;
-    background-color: #4C51BF;
+    background-color: #125c61;
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
@@ -189,117 +189,82 @@ h1 {
     background-color: #333;
 }
 
+/* Section 4: Contact Form Styling */
 .contact {
-    padding: 60px 0;
-    background-color: #ffffff;
+    background: linear-gradient(to bottom, #f7f7f7, #eaeaea);
+    padding: 50px 20px;
     text-align: center;
-}
-
-.contact h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
     color: #333;
 }
 
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
 .contact p {
-    font-size: 16px;
-    color: #666;
+    font-size: 1rem;
     margin-bottom: 40px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    color: #666;
 }
 
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    justify-items: center;
-    align-items: start;
-}
-
-.contact-form form {
-    width: 100%;
-    max-width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 15px;
-    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0d4053;
+    outline: none;
+    box-shadow: 0 0 5px rgba(39, 137, 156, 0.5);
+}
+
+.contact-form textarea {
+    resize: none;
 }
 
 .contact-form button {
-    background-color: #4C51BF;
-    color: white;
-    padding: 12px 20px;
+    background: #123e4b;
+    color: #ffffff;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    transition: background 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: #333;
+    background: #18a3a3;
 }
-
-.contact-info {
-    max-width: 400px;
-    text-align: left;
-}
-
-.contact-info h3 {
-    font-size: 22px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.contact-info p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-.contact-info a {
-    color: #4C51BF;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-.social-links {
-    margin-top: 20px;
-}
-
-.social-icon {
-    display: inline-block;
-    margin-right: 10px;
-    padding: 10px 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    color: #4C51BF;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.social-icon:hover {
-    background-color: #4C51BF;
-    color: white;
-}
-
 
 footer {
-    background-color: #4C51BF;
+    background-color: #02030e;
     color: white;
     text-align: center;
     padding: 20px 0;
